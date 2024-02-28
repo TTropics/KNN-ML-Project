@@ -1,6 +1,7 @@
 <html>
   <head>
-  <title>Generative KNN - Gen Shoes</title>
+
+        <title>Generative KNN - Gen Shoes</title>
         <meta charset="utf-8" />
         <link rel="icon" type="image/x-icon" href="./favicon.png" />
         <link
@@ -9,9 +10,11 @@
         />
         <script defer src="https://pyscript.net/latest/pyscript.js"></script>
         <link rel="stylesheet" href="./assets/css/examples.css" />
+    
   </head>
   <body>
-    <nav class="navbar" style="background-color: #000000">
+
+          <nav class="navbar" style="background-color: #000000">
             <div class="app-header">
                 <a href="">
                     <img src="./logo.png" class="logo" />
@@ -72,20 +75,22 @@
 
         <div id="pandas-output"></div>
 
-        <section class="pyscript">
-          <div id="mpl"></div>
 
-          <py-config>
-                  packages = [
-                    "matplotlib",
-                    "pandas",
-                  ]
-                  plugins = [
-                    "https://pyscript.net/latest/plugins/python/py_tutor.py"
-                  ]
-           </py-config>
+         <section class="pyscript"> 
+            <div id="mpl"></div>
 
-           <script type="py">
+            <py-config>
+                    packages = [
+                      "matplotlib",
+                      "pandas",
+                    ]
+                    plugins = [
+                      "https://pyscript.net/latest/plugins/python/py_tutor.py"
+                    ]
+              </py-config>
+
+             
+              <script type="py">
 
                     
                     import matplotlib.pyplot as plt
@@ -202,7 +207,9 @@
    
                 </script>
 
-        </section>
 
+
+         </section>
+    
   </body>
 </html>
